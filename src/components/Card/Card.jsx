@@ -1,3 +1,4 @@
+import { memo } from "react"
 import Icon from "../Icon/Icon"
 import './Card.css'
 
@@ -16,4 +17,4 @@ const Card = ({onPlay, player, index, gameEnd}) => {
     )
 }
 
-export default Card;
+export default memo(Card);
